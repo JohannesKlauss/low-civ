@@ -1835,7 +1835,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.14.6":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
@@ -2515,10 +2515,10 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-6.2.0.tgz#e3508317a84e5e6ce3a2b8404c5fbf8acbfc18d5"
-  integrity sha512-Y0WpcBlAFUeNlFw2+/CfPgrfZeCk3ypgwF0K8N4BkvNicbtvjoJq61mfMc+tPYcZ5zrIWviDQZnkHar+1AEIkw==
+"@react-three/drei@7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.0.2.tgz#36c4b0170962770a53173983a146602f58cecbe0"
+  integrity sha512-xj/Y9DvrVAwn3rVt1SJ4q6/AohLo5arilqT5CNnOdb6iTkQYtwySQrt5RyySQHg78kYrhPsk6/FFrLIVcwfogQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     blob-polyfill "^5.0.20210201"
@@ -2528,8 +2528,8 @@
     lodash.pick "^4.4.0"
     react-merge-refs "^1.0.0"
     stats.js "^0.17.0"
-    three-mesh-bvh "^0.4.0"
-    three-stdlib "^2.2.0"
+    three-mesh-bvh "^0.4.1"
+    three-stdlib "^2.3.0"
     troika-three-text "^0.42.0"
     use-asset "^1.0.4"
     utility-types "^3.10.0"
@@ -5514,7 +5514,7 @@ check-types@^11.1.1:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-11.1.2.tgz#86a7c12bf5539f6324eb0e70ca8896c0e38f3e2f"
   integrity sha512-tzWzvgePgLORb9/3a0YenggReLKAIb2owL03H2Xdoe5pKcUyWRSEQ8xfCar8t2SIAuEDwtmx2da1YB52YuHQMQ==
 
-chevrotain@^9.0.1:
+chevrotain@^9.0.2:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/chevrotain/-/chevrotain-9.0.2.tgz#7cc462262fec8ee293d96b756085ac71b8804bf1"
   integrity sha512-6ZjgUdGvU4j1n1b2hTjb79Vr2V+qNtmP7f8FVt79+kdAYcUj2QfYNwI8ycCVsgHD/dIeO5Vr1hckkkfliVQTfg==
@@ -14733,20 +14733,20 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-three-mesh-bvh@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.4.0.tgz#5b0c53925986e85e64ead2bce65933dee8bc936b"
-  integrity sha512-76tvmdM+fMlRQIg2yxBDPuQ035fqE0PrnJ+Sn5ZU33lujgRwlFtDUkZzjvdFv51bfVBVaDnUTBoV5o/P0tflJA==
+three-mesh-bvh@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.4.1.tgz#ba0bf1dac7cbd41f2132c8446545c8ad9fbeb892"
+  integrity sha512-1ALlGVjArZpi0SdqZhjwFA3DZHgBF/Uo4LnL8G7PczI7rpOoBK87CaBL073DVrrbIE4OONJvpq/PEzluKoRHbg==
 
-three-stdlib@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.2.0.tgz#89243f52d4c911d99528268b795bd650a0b47146"
-  integrity sha512-2ywaUEuqxP5UR25pevVUWtNgVJ0t/IPFHZi5k8JLfzBG7MAZ1uRVu0zy6M7lZx38zSDqVxZTYGUCX1A4eFmm5A==
+three-stdlib@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.3.0.tgz#cf669e50e4a766a0c9af28c2f36680a298c749b0"
+  integrity sha512-XnbTdH72aTB+lLV5y5IKr5bkLv9mHqn4913sY3YNiL3ZwzIl3TPqxRpPuJ7A93IUqo/T2U+fUvLuAaN9tOkM6A==
   dependencies:
-    "@babel/runtime" "^7.13.17"
+    "@babel/runtime" "^7.14.6"
     "@webgpu/glslang" "^0.0.15"
     "@webxr-input-profiles/motion-controllers" "^1.0.0"
-    chevrotain "^9.0.1"
+    chevrotain "^9.0.2"
     fflate "^0.6.9"
     ktx-parse "^0.2.1"
     mmd-parser "^1.0.4"
