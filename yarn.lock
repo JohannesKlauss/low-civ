@@ -4334,10 +4334,10 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/three@0.129.1":
-  version "0.129.1"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.129.1.tgz#e488e686132256dfd61cffd4d97ea6cf176a4a8d"
-  integrity sha512-31VTcjAQNggIrCH9NVotTYsr5Ws/QMGGTaMK6RP3EgyzW2WEuZdm25TNidd6PJ3e4a6/hbswNacnTsjwc7ksbw==
+"@types/three@0.130.0":
+  version "0.130.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.130.0.tgz#f048f1fb73e789a2c0dfcc66a45ffcbf259a75f6"
+  integrity sha512-7MKKxlEjHoAGTBRxEcDOjO4OvOrvUM6xtyjPiubNcU6bRPNmjNaV/PI9tiaXkk8cauZ9FuRbdCV4g0rQod+FkQ==
 
 "@types/uglify-js@*":
   version "3.12.0"
@@ -15252,10 +15252,10 @@ three-stdlib@^2.3.0:
     potpack "^1.0.1"
     zstddec "^0.0.2"
 
-three@0.130.0:
-  version "0.130.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.130.0.tgz#43778a96366fa5e3d1da28c688e8a2bfd8b42aab"
-  integrity sha512-4jqvbJyvgrjTsBgqE7TrdkZral78l8CXpFCdGzqQoiJHsRhGHxe5tvwqZQVaS6eodPav7jdYO5sp1c5RmMB3ng==
+three@0.130.1:
+  version "0.130.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
+  integrity sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==
 
 throat@^5.0.0:
   version "5.0.0"
