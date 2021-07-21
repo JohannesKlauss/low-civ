@@ -2551,12 +2551,12 @@
     utility-types "^3.10.0"
     zustand "^3.5.1"
 
-"@react-three/postprocessing@2.0.4-alpha.2":
-  version "2.0.4-alpha.2"
-  resolved "https://registry.yarnpkg.com/@react-three/postprocessing/-/postprocessing-2.0.4-alpha.2.tgz#24deb4044cd1aebae76147fc3ae0ec1a17def78d"
-  integrity sha512-7HD0Gg6qbsFnJHJEu813DT/KO+LUTA5/gjiK8lRixhpQLseixdZaSyXXqopW1EYR0zDKT/EzniJMU6x/u4Lhqw==
+"@react-three/postprocessing@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@react-three/postprocessing/-/postprocessing-2.0.5.tgz#9c30e14e0766f9ceee33740682a9fcdd2cfe785a"
+  integrity sha512-0o4NjYXpqfbW03fpB2WuWA2FApoafwvqhDI2Ca1Weljbo3d/Uy3XUBB8WyZU3zWIAQbg7SzU/d03wpFSGzWzJQ==
   dependencies:
-    postprocessing "^6.22.0"
+    postprocessing "^6.22.2"
     react-merge-refs "^1.1.0"
 
 "@rollup/plugin-node-resolve@^7.1.1":
@@ -12477,10 +12477,10 @@ postcss@^8.1.0:
     nanoid "^3.1.20"
     source-map "^0.6.1"
 
-postprocessing@^6.22.0:
-  version "6.22.0"
-  resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.22.0.tgz#a36116d7cc16e2648c49e789825e780375e5c6e0"
-  integrity sha512-/Bv0mpcqeDZ+hbuk6l25kb9OK99DUInE1R8LszOQLUTnuv+MAWJR5hvdmT4c2dMSCEKYWtE70nf3p0BWvqEMVA==
+postprocessing@^6.22.2:
+  version "6.22.2"
+  resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.22.2.tgz#1cac424f00348f1840b4b5b5bf7a8e161da2cb17"
+  integrity sha512-HaZqJuRvSyxm6OfvAbNjs1MVMnqd9URxWrWPOTaxqINTXCym1f/UPbozayvH9Fqpb6b6sMmpqgqkGcYBYFo5iw==
 
 potpack@^1.0.1:
   version "1.0.1"
