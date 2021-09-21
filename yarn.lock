@@ -2531,10 +2531,10 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@7.8.2":
-  version "7.8.2"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.8.2.tgz#0fe823f4d6e0785fb8c62327ea4a36b47e8b138b"
-  integrity sha512-bFVbtfWjemGKwyihswv+/HncKArmCTWL93AxhVrL7NrEUYqJSszQDu8i8up9uv2YV0xqEWgomA3s2WRyfSiSCQ==
+"@react-three/drei@7.10.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.10.0.tgz#d5967fda694b06ebd7cc8a6df9007899a782c8d1"
+  integrity sha512-XokISHE2psYLm9vNMqxJ/eHUj8oeIqZEW2DORvZjrKxMRMVQenPzrbVaYxnn0DhlnGuOFz1QZv5pAtHU8OepNw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     blob-polyfill "^5.0.20210201"
@@ -2542,6 +2542,7 @@
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
+    react-composer "^5.0.1"
     react-merge-refs "^1.0.0"
     stats.js "^0.17.0"
     three-mesh-bvh "^0.4.1"
@@ -12880,6 +12881,13 @@ react-colorful@^5.1.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.2.2.tgz#0a69d0648db47e51359d343854d83d250a742243"
   integrity sha512-Xdb1Rl6lZ5SMdNBH59eE0lGqR1g2LVD8IgPlw0WeMDrOC65lYI8fgMEwj/0dDpVRVMh5qp73ciISDst/t2O2iQ==
+
+react-composer@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/react-composer/-/react-composer-5.0.1.tgz#8d61c61fccc287b0a7d7bf762a88d5d654ca8486"
+  integrity sha512-gp+fEJpZU6mmnKAEskGblwtM0HV6Yh2NiwtUBeGzjEcGSeqxKqGxKq6Ae0ca08SkSDqmeazm09Ybwk8ESHQBIQ==
+  dependencies:
+    prop-types "^15.6.0"
 
 react-dev-utils@^11.0.3:
   version "11.0.4"
