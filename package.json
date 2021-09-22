@@ -75,7 +75,7 @@
     "@types/node": "14.17.17",
     "@types/react": "17.0.21",
     "@types/react-dom": "17.0.9",
-    "@types/three": "0.131.1",
+    "@types/three": "0.132.0",
     "@types/uuid": "8.3.1",
     "prettier": "2.4.1"
   }
